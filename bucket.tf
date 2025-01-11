@@ -5,16 +5,16 @@ resource "google_storage_bucket" "gcp-bucket-us" {
   uniform_bucket_level_access = true
 }
 
-resource "google_storage_bucket" "gcp-bucketeurope" {
-  name     = "nexedge-bucket-chichi9999"
-  location = "EUROPE"
+resource "google_storage_bucket" "gcp-bucket-europe" {
+  name     = "nexedge-bucket-chichi99990"
+  location = "EUROPE-WEST1"
   storage_class = "STANDARD"
   uniform_bucket_level_access = true
 }
 
 resource "google_storage_bucket" "gcp-bucket-asia" {
-  name     = "nexedge-bucket-chichi9999"
-  location = "ASIA"
+  name     = "nexedge-bucket-chichi99991"
+  location = "ASIA-SOUTHEAST1"
   storage_class = "STANDARD"
   uniform_bucket_level_access = true
 }
