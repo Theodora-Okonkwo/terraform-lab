@@ -1,1 +1,3 @@
 # terraform-lab
+A new branch was created and checked out, called tf-branch-b. Two additional subnets were created named my-subnet-2 and my-subnet-3 in the following regions respectively europe-west1 and asia-southeast1. Two firewall rules, HTTP and HTTPS, were set up to allow incoming traffic on ports 80 and 443 to all resources within the VPC network.
+Two additional virtual machines, test-vm2 in Europe-West1 and test-vm3 in Asia-Southeast1, running on Ubuntu and Debian operating systems, respectively, were set up in Europe-West1 and Asia-Southeast1. A MySQL database instance and PostgreSQL database instance were additionally created in Europe-West1 and Asia-Southeast1. Two Google cloud storage buckets were also created in the Asia and Europe Regions.
